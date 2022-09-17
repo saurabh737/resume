@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in Latex
+% Author : Kumar Saurabh
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & {\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & {\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\usepackage{hyperref}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+    {\huge  Kumar Saurabh} \\ \vspace{5pt}
+    \small \raisebox{-0.1\height}\ 812-225-4356 ~ $|$ \href{mailto:kumarsaurabh737@gmail.com}{\raisebox{-0.2\height}\  \underline{kumarsaurabh737@gmail.com}} ~ $|$
+    \href{https://www.linkedin.com/in/ksaurabh737/}{\raisebox{-0.2\height}\ \underline{LinkedIn}}  ~ $|$
+    \href{https://github.com/saurabh737}{\raisebox{-0.2\height}\ \underline{GitHub}}~ $|$
+    \small \raisebox{-0.1\height}\ Indiana, USA 
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Indiana University}, Bloomington, Indiana}{May 2023}
+      {Master of Science in Computer Science}{4.0 GPA}
+    \resumeSubheading
+      {\textbf{University of Mumbai}, Mumbai, India}{May 2016}
+      {Bachelor of Engineering in Computer Engineering}{3.4 GPA}
+  \resumeSubHeadingListEnd
+  
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, JavaScript, Java, SQL, HTML, CSS} \\
+     % \textbf{Web Technologies}{:  HTML, CSS, Bootstrap, jQuery, } \\
+     \textbf{Databases}{: MySQL, PostgreSQL, DB2, MongoDB, Redis, Couchbase} \\
+     \textbf{Frameworks/ Technologies}{: Node.JS, Spring Boot, ReactJS, React Native, JUnit, Next.JS, Typescript, Nginx, Kibana} \\ 
+     \textbf{Skills and Interest}{: Git, Linux/Unix Commands, Maven, Jenkins, Microservices, REST APIs, Docker, Kubernetes}\\
+     \textbf{Topics}{: Algorithms, Data Structures, Cloud Computing, Distributed Systems, Agile Methodology}\\
+     
+     
+    }}
+ \end{itemize}
+ \vspace{-14pt}
+%-----------EXPERIENCE-----------
+\section{PROFESSIONAL EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\textbf{Software Engineer Intern}, \small{Ancestry.com, USA}}{May 2022 -- August 2022}
+      {\textbf{Technologies: TypeScript, NodeJS, ReactJS, AWS, MySQL}}{}
+      \resumeItemListStart
+        \resumeItem{Migrated admin portal from Perl codebase to new architecture using \textbf{Typescript and NextJS} improving the administrative effectiveness by \textbf{17\%}.}
+        \resumeItem{Developed REST APIs to cater the request from portal including support of filtering and pagination using GraphQL, NodeJS and MySQL with \textbf{14ms average} response-time.}
+        \resumeItem{Implemented and optimized complex SQL queries to fetch user data from MySQL and \textbf{improved API response time by} \textbf{{23\%}}.}
+        \resumeItem{Build and maintain security log aggregation and detection systems using distributed monitoring tool – \textbf{ELK stack}.}
+        \resumeItem{Participated in E22 hackathon to design and developed DNA social Network and won \textbf{“Best Design”} award.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{Senior Software Engineer} \small{Jio Platforms Limited, Mumbai, India}}{June 2016 -- August 2021}
+      {\textbf{Technologies: NodeJS, ReactJS, Python, Redis, MySQL, MongoDB, Elasticsearch, Kibana, Nginx}}{}
+      \resumeItemListStart
+        \resumeItem{Engineered the entire backend of the JioTV application and developed \textbf{REST APIs} using Node.JS, Nginx, MySQL, Redis, Couchbase, MongoDB, and Elasticsearch. Scaled Back-end to handle more than \textbf{200 million} downloads on Playstore and AppStore combined and \textbf{7.2 million concurrent users}.}
+        \resumeItem{Built the architecture and pipeline for live scorecard and sports videos integration from Newtork18 for transcoding video files using \textbf{FFmpeg} as well as delivery through \textbf{HLS and Mpeg-dash} which enhanced \textbf{daily content consumption by} \textbf{21\%} on JioTV.}
+        \resumeItem{Modernized Search API which resulted in \textbf{87\%} improvement in response time.}
+        \resumeItem{Integrated Application Performance Monitoring \textbf{(Elastic APM)} in APIs to easily identify production issues which \textbf{eliminated downtime by} \textbf{95\%}.}
+        \resumeItem{Orchestrated \textbf{content security} implementation in video feeds using \textbf{Akamai Hmac token and Nginx}; prevented video leakage on fake applications and avoided monetary loss for the company.}
+        \resumeItem{\textbf{Mentored} operations team which handles production deployments and monitors system for errors.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{ACADEMIC PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/airavata-courses/dexlab}{\underline{Weather Radar} \faExternalLink}}:  Technologies: \emph{Java, Python, NodeJS, ReactJS, Kubernetes, Nginx, AWS S3 Bucket}}{Jan 2022 - May 2022}
+          \resumeItemListStart
+            \resumeItem{Co-designed and developed loosely coupled \textbf{microservice architecture} web application for weather forecasting along with session-management using JWT authentication.}
+            \resumeItem{Implemeted caching mechanisms using Nginx and Redis which resulted in throughput by \textbf{77\%} \textbf{improvement} in throughput and API response-time \textbf{reduced by} \textbf{84\%} .}
+            \resumeItem{Used \textbf{Kubernetes} to orchestrate the deployment, scaling and management of Docker containers; integrated \textbf{GitHub Actions and AgroCD} for CI/CD pipeline.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/saurabh737/Cooking-made-easy}{\underline{Cooking Made Easy} \faExternalLink : }}Technologies: \emph{NodeJS, Python, Flask, MySQL}}{Jan 2022 - May 2022}
+          \resumeItemListStart
+            \resumeItem{Led a team of 3 to design and develop cooking recipes website.}
+            \resumeItem{Created the database design schema and designed SQL queries to manipulate database based on user action on the web applications}
+            \resumeItem{Devised cron-jobs for continuous ingestion of new content in system's database triggered by updates in kaggle database.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+
+\end{document}
